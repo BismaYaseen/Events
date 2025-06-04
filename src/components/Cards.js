@@ -37,6 +37,7 @@ const Cards = ({ events = [] }) => {
   };
 
   return (
+    <section id='events'>
     <div className="cards-section">
       <div className="section-title">
         <h2>Upcoming Events</h2>
@@ -87,6 +88,7 @@ const Cards = ({ events = [] }) => {
         </div>
       )}
     </div>
+    </section>
   );
 };
 

@@ -6,9 +6,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">EventFinder</div>
       <ul className="nav-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/events">Events</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   );
